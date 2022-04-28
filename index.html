@@ -390,6 +390,11 @@
     </footer>
     <div class="modal-section is-hidden" data-modal>
         <div class="modal-window">
+            <button type="button" class="button-modal" data-modal-close>
+                <svg class="close" width="18" height="18" data-modal-close>
+                    <use href="./images/close-button.svg#icon-close-black"></use>
+                </svg>
+            </button>
             <form>
                 <h2 class="form-titel">Оставьте свои данные, мы вам перезвоним</h2>
                 <div class="section-form">
@@ -424,7 +429,7 @@
                         <input class="checkbox"  type="checkbox" name="topic" value="Соглашаюсь с рассылкой и принимаю">
                         <span class="form-checkbox"></span>
                         Соглашаюсь с рассылкой и принимаю
-                        <a href="#">
+                        <a href="#" style="color:#2196F3">
                             <span class="conditions-link">Условия договора</span>
                         </a>
                     </label>
@@ -433,11 +438,6 @@
                     <button type="submit" class="button-modal2">Отравить</button>
                 </div>
             </form>
-            <button type="button" class="button-modal" data-modal-close></button>
-            <svg class="close" width="18" height="18" data-modal-close>
-                <use href="/images/close-button.svg#icon-close-black"></use>
-            </svg>
-            
         </div>
       </div>
     <script src="./js/modal.js"></script>
